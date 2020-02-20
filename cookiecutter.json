@@ -1,14 +1,11 @@
 {
-    "infrastructure": "infrastructure",
+    "directory_name": "infrastructure",
     "service_name": "service",
     "python_version": "3.8",
     "cdk_version": "1.25.0",
     "vmx_cdk_version": "0.6.3",
     "stack_name": "ServiceStack",
-    "PnLGroupTag": "PnLGroupTag",
-    "ProductLineTag": "ProductLineTag",
-    "ProductTag": "ProductTag",
-    "ComponentTag": "ComponentTag",
-    "EnvironmentTag": "EnvironmentTag",
-    "CustomerTag": "CustomerTag"
+    "accounting_category": [null, "VCAS Cloud", "Analytics", "Strong Authentication", "TV Everywhere Authentication", "Watermarking", "Development Overhead", "Operational Overhead"],
+    "creator_username": null,
+    "customer_name": null
 }
