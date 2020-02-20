@@ -1,0 +1,14 @@
+{
+    "infrastructure": "infrastructure",
+    "service_name": "service",
+    "python_version": "3.8",
+    "cdk_version": "1.25.0",
+    "vmx_cdk_version": "0.6.3",
+    "stack_name": "ServiceStack",
+    "PnLGroupTag": "PnLGroupTag",
+    "ProductLineTag": "ProductLineTag",
+    "ProductTag": "ProductTag",
+    "ComponentTag": "ComponentTag",
+    "EnvironmentTag": "EnvironmentTag",
+    "CustomerTag": "CustomerTag"
+}

@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[[source]]
+name = "vmx-cloud"
+url = "https://vmxpypi.tools.vmxeng.net/v1/packages"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+"aws-cdk.core" = "=={{cookiecutter.cdk_version}}"
+
+"vmx-cdk" = {version="=={{cookiecutter.vmx_cdk_version}}", index="vmx-cloud"}
+
+[requires]
+python_version = "{{cookiecutter.python_version}}"
+
