@@ -17,7 +17,4 @@ if 'None' == customer_name:
    print('ERROR: "customer_name" is a required field.')
    num_errors += 1
 
-
-# TODO
-
 sys.exit(0 if 0 == num_errors else 1)
